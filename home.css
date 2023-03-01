@@ -1,0 +1,111 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+.home-hero {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-sevenunits);
+  padding-right: var(--dl-space-space-sevenunits);
+  flex-direction: column;
+  background-color: #313131;
+}
+.home-header {
+  display: flex;
+  margin-top: 140px;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text {
+  color: rgb(255, 255, 255);
+  font-size: 72px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  line-height: 80px;
+}
+.home-container1 {
+  width: 368px;
+  height: 185px;
+  display: flex;
+  align-items: flex-start;
+}
+.home-text01 {
+  color: rgb(255, 255, 255);
+  align-self: flex-start;
+  text-align: left;
+}
+.home-container2 {
+  flex: 0 0 auto;
+  width: 135px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  opacity: 0;
+}
+.home-text17 {
+  color: white;
+  align-self: flex-start;
+  text-align: right;
+}
+.home-text36 {
+  color: var(--dl-color-gray-white);
+}
+.home-text37 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+}
+.home-text42 {
+  color: white;
+  font-size: 8px;
+}
+.home-text43 {
+  color: var(--dl-color-gray-white);
+}
+.home-image {
+  width: 172px;
+  height: 148px;
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .home-hero {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-header {
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+@media(max-width: 767px) {
+  .home-hero {
+    height: 620px;
+    position: relative;
+    padding-bottom: 180px;
+    background-color: var(--dl-color-template-blue-bg);
+  }
+  .home-header {
+    height: 100%;
+    margin-top: var(--dl-space-space-fourunits);
+    justify-content: center;
+  }
+  .home-text {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+}
+@media(max-width: 479px) {
+  .home-hero {
+    padding-bottom: 160px;
+  }
+}
