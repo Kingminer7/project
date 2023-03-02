@@ -54,7 +54,7 @@
   flex: 0 0 auto;
   width: 135px;
   border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
+  height: 150px;
   display: flex;
   opacity: 0;
 }
